@@ -1,0 +1,10 @@
+Algoritmo Salario_a_Pagar
+	Definir numerohoras Como Entero
+	Definir valorhora, salariopagar Como Real
+	Escribir "Ingrese el número de horas laboradas:"
+	Leer numerohoras
+	Escribir "Ingrese el valor de la horas:"
+	Leer valorhora
+	salariopagar = numerohoras * valorhora
+	Escribir "El salario a pagar es:", salariopagar
+FinAlgoritmo
