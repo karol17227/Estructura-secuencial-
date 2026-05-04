@@ -1,0 +1,9 @@
+Algoritmo calculo_Velocidad
+	Definir velocidad, distancia, tiempo Como Real
+	Escribir "Ingrese la distancia (Km)"
+	Leer distancia
+	Escribir "Ingrese tiempo (h)"
+	Leer tiempo
+	velocidad = distancia/tiempo
+	Escribir "Su velocidad es:", velocidad, "(Km/h)"
+FinAlgoritmo
