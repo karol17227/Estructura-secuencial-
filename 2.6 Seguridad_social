@@ -1,0 +1,19 @@
+Algoritmo Seguridad_social
+	
+	Definir salario Como Real
+	Definir salud, pension, totalDescuento, salarioNeto Como Real
+	
+	Escribir "Ingrese el salario base del empleado:"
+	Leer salario
+	
+	salud = salario * 0.04
+	pension = salario * 0.04
+	totalDescuento = salud + pension
+	salarioNeto = salario - totalDescuento
+	
+	Escribir "Aporte a salud (4%): ", salud
+	Escribir "Aporte a pensión (4%): ", pension
+	Escribir "Total descuento: ", totalDescuento
+	Escribir "Salario neto a recibir: ", salarioNeto
+	
+FinAlgoritmo
