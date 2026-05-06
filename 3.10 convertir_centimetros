@@ -1,0 +1,18 @@
+Algoritmo convertir_centimetros
+	
+	Definir centimetros, metros, pulgadas, pies, yardas Como Real
+	
+	Escribir "Ingrese un valor en centímetros:"
+	Leer centimetros
+	
+	metros = centimetros / 100
+	pulgadas = centimetros / 2.54
+	pies = centimetros / 30.48
+	yardas   = centimetros / 91.44
+	
+	Escribir "En metros es: ", metros
+	Escribir "En pulgadas es: ", pulgadas
+	Escribir "En pies es: ", pies
+	Escribir "En yardas es: ", yardas
+	
+FinAlgoritmo
