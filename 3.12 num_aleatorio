@@ -1,0 +1,13 @@
+Algoritmo numero_aleatorio
+	
+	Definir num, disminuido Como Real
+	
+	num <- 10 + azar(41)
+	
+	Escribir "El número aleatorio es: ", num
+	
+	disminuido = num - (num * 0.15)
+	
+	Escribir "El número disminuido un 15% es: ", disminuido
+	
+FinAlgoritmo

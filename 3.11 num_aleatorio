@@ -1,0 +1,13 @@
+Algoritmo numero_aleatorio_30
+	
+	Definir num, aumentado Como Real
+	
+	num = azar(200)
+	
+	Escribir "El número aleatorio es: ", num
+	
+	aumentado = num + (num * 0.30)
+	
+	Escribir "El número aumentado un 30% es: ", aumentado
+	
+FinAlgoritmo
